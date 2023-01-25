@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	height: 100%;
+	text-align: center;
+	font-family: 'Nunito Sans';
+	background-image: url("https://i.ibb.co/W0kcFjP/fondo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}
+
+mark {
+	background-color: #792a91;
+	color: #C8A8F6;
+}
+
+div {
+	margin: 100px;
+}
+
+.myimg {
+	border-radius: 50%;
+	border: 3px solid #792a91;
+	margin: 10px;
+	height: 250px; 
+}
+
+.social {
+	margin: 20px;
+	height: 40px;
+}
+
+.fortytwo {
+	margin: 25px;
+	display: block;
+	text-align: center;
+}
+
+button {
+	margin: 10;
+	font-size: 25px;
+	border: solid 3px #9234ae;
+	background-color: #792a91;
+	color: #C8A8F6;
+	padding: 15px;
+	width: 200px;
+	display: inline-block;
+}
+
+button:hover {
+	color: #792a91;
+	background-color: #C8A8F6;
+	box-shadow: 2px 2px 2px 1px #792a91;
+}
