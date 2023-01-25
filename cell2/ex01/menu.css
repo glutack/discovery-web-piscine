@@ -1,0 +1,45 @@
+body {
+	background-color: #AA7DCE;
+	text-align: center;
+}
+
+nav {
+	height: 50px;
+	width: 98vw;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	background-color: #7c45a9;
+	color: white;
+	padding: 25px;
+	font-size: 16px;
+	border: solid 4px #A5F8D3;
+}
+
+.dropcont {
+	display: none;
+	position: absolute;
+	background-color: #8BE8CB;
+	min-width: 129px;
+	box-shadow: 0px 5px 10px 0px #462749;
+	border: solid 1px white;
+}
+
+.dropcont a {
+	color: black;
+	padding: 12 16;
+	text-decoration: dotted;
+	display: block;
+	border: solid 1px white;
+}
+
+.dropdown:hover .dropbtn {background-color: #3ea6ad}
+
+.dropdown:hover .dropcont {display: block;}
+
+.dropcont a:hover {background-color: #5ee0b7;}
